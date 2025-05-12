@@ -1,0 +1,5 @@
+from sky_engine import SyntheticDataGenerator
+
+config = "config/config.yaml"
+generator = SyntheticDataGenerator(config)
+generator.run()
